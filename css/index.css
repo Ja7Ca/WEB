@@ -1,0 +1,20 @@
+
+#main{
+    margin: 11px 0;
+}
+#konten{
+    padding: 40px;
+    width: 65%;
+    margin: 0 auto;
+    font-size: 4em;
+}
+#konten h1{
+    margin: 60px 0;
+    font-weight: bolder;
+}
+#konten span{
+    opacity: 0.1;
+}
+#konten span:hover{
+    opacity: 1;
+}
