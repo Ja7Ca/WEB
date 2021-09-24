@@ -1,0 +1,43 @@
+#konten{
+    margin: 10px auto;
+    display: inline;
+}
+.tengahkonten{
+    margin: 0 auto;
+    width: 60%;
+}
+.gambar{
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+}
+.text{
+    margin: auto 0;
+    padding: 0 20px;
+}
+#judul{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 3em;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+.deskripsi{
+    font-size: 1.5em;
+    margin: 10px auto;
+}
+#lain{
+    width: 220px;
+    margin: 30px auto;
+}
+#lain img{
+    padding: 0 10px;
+    width: 50px;
+    margin: 0 auto;
+}
+#lain img:hover{
+    cursor: pointer;
+}
+#lain .laintengah{
+    opacity: 0.5;
+}
