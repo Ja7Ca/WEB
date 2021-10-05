@@ -13,7 +13,7 @@
     </form>
     <?php
         
-        if($_POST['submit']){
+        if(isset($_POST['submit'])){
             $kalimat = $_POST['kalimat'];
             $lower = strtolower($kalimat);
             $vokal = ['a','i','u','e','o'];
