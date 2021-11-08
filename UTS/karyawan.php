@@ -29,7 +29,7 @@
             <td><?= $NIK[$i] ?></td>
             <td><?= $Nama[$i] ?></td>
             <td><?= $TmpLahir[$i].", ". toMonth($TglLahir[$i]) ?></td>
-            <td><?= umur($TglLahir[$i])." ".strtotime($TglLahir[$i]) ?></td>
+            <td><?= umur($TglLahir[$i]) ?></td>
         </tr>
         <?php } ?>
     </table>
